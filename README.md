@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Project
+使用Laravel架構建立動物管理平台，也可以讓第三方平台串接我們的API服務，提高動物能見度。
+
+### Project Functions
+- 內容管理系統（動物的增、刪、改、查）
+- 類別分類（貓、狗）
+- 會員註冊、權限限制
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

@@ -9,6 +9,9 @@ class Animal extends Model
 {
     use HasFactory;
 
+    /**
+     * 設定可以被批量寫入(create)的屬性
+     */
     protected $fillable = [
         'type_id',
         'name',

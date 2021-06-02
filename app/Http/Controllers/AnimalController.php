@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Animal;
+use Facade\FlareClient\Http\Response as HttpResponse;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -85,5 +86,7 @@ class AnimalController extends Controller
     public function destroy(Animal $animal)
     {
         //
+        $animal -> delete();
+        return response(null, Response::HTTP_NO_CONTENT);
     }
 }
